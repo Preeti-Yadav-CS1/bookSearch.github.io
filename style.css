@@ -1,0 +1,117 @@
+/*main body */
+body{
+    background-image: linear-gradient(to right,rgb(107, 192, 228),rgb(144, 229, 255));
+    padding: 50px 100px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* header */
+header{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://images.unsplash.com/photo-1627398242454-45a1465c2479?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80");
+    border-radius: 20px;
+}
+
+/* ---header */
+
+/* main class */
+main{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+/* --- */
+
+
+/* book */
+article{
+    background-color: rgb(234, 242, 243);
+    width: 1000px;
+    height: 800px;
+    overflow: auto;
+
+
+}
+/* ---- */
+
+
+
+
+/* sides */
+aside{
+    width: 400px;
+    height: 1000px;
+}
+
+/* section--frequently used and all */
+section{
+    background-color: rgb(220, 233, 242);
+    margin-bottom: 20px;
+}
+
+/*  */
+.frist{
+    padding: 5px;
+    background-color: rgba(173, 227, 245, 0.623);
+}
+.second{
+    padding: 5px;
+}
+
+
+/* search bar */
+input[type="text"]{
+    padding: 5px;
+    font-size: 25px;
+}
+
+/* find button */
+button{
+    padding: 5px;
+    font-size: 25px;
+}
+
+/* books height and font side */
+.books{
+    height: 200px;
+    font-size: 25px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    display: flex;
+}
+article{
+    font-size: 32px;
+}
+
+
+
+/* main second and frist padding */
+.s{
+    padding: 50px;
+    font-size: 30px;
+}
+.f{
+    padding: 20px;
+    
+}
+
+
+/* link of next website */
+a{
+    text-decoration: none;
+}
+#game{
+    font-size: 40px;
+    text-decoration: underline;
+}
